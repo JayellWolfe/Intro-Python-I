@@ -13,5 +13,13 @@ z = "I like turtles!"
 # x is 10, y is 2.25, z is "I like turtles!"
 
 # Use the 'format' string method to print the same thing
+print('x = {}, y = {:.2f}, z = "{}"'.format(x,y,z))
 
 # Finally, print the same thing using an f-string
+print('x is %(x)d, y is %(y).2f, z is "%(z)s"' % {'x': x, 'y': y, 'z': z})
+
+#x = 10 
+#y = 2.25
+#z = "I like turtles!"
+
+#f"{x,y,z}"
